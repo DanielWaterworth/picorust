@@ -10,9 +10,9 @@ use std::os::unix::io::AsRawFd;
 const PICOSAT_VERSION: isize = 965;
 const PICOSAT_API_VERSION: isize = 953;
 
-const PICOSAT_UNKNOWN: isize       = 0;
-const PICOSAT_SATISFIABLE: isize   = 10;
-const PICOSAT_UNSATISFIABLE: isize = 20;
+pub const PICOSAT_UNKNOWN: isize       = 0;
+pub const PICOSAT_SATISFIABLE: isize   = 10;
+pub const PICOSAT_UNSATISFIABLE: isize = 20;
 
 const DEFAULT_FILE_MODE: &'static str = "rw";
 
